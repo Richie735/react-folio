@@ -1,20 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600&display=swap");
 
 :root {
   --bg-color: rgb(36, 36, 36);
-  --bg-alt-color: #2c2c6c;
-  --main-color: #4db5ff;
+  --bg-alt-color: #585861;
+  --main-color: #fdbc0a;
   --main-alt-color: rgba(77, 181, 255, 0.4);
   --text-color: #fff;
-  --light-color: rgba(255, 255, 255, 0.6);
+  --light-color: #d7d7d7;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-ms: 90%;
 
-  --transition: all 400ms ease;
+  --transition: all 250ms ease;
 
   --main-font: "Poppins", sans-serif;
+  --mono-font: "Source Code Pro", monospace;
 }
 
 * {
