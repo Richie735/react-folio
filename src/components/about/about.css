@@ -51,7 +51,7 @@
 }
 
 .about_icon {
-  color: var(--main-color);
+  color: var(--main-transp-color);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }

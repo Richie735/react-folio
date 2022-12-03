@@ -6,10 +6,10 @@ const App = () => {
   return (
     <>
       <Header />
-      {/* <About />
+      <About />
       <Experience />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </>
   );
 };
