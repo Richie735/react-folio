@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BiBookAlt, BiFolder, BiHome, BiStar, BiUser } from "react-icons/bi";
+import { BiBookBookmark, BiFolder, BiHome, BiStar, BiUser } from "react-icons/bi";
 import "./nav.css";
 
 function Nav() {
@@ -25,7 +25,7 @@ function Nav() {
         onClick={() => setActive("#experience")}
         className={active === "#experience" ? "active" : ""}
       >
-        <BiBookAlt />
+        <BiBookBookmark />
       </a>
       <a
         href="#skills"

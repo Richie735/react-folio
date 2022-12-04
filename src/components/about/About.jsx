@@ -5,12 +5,32 @@ import "./about.css";
 const About = () => {
   return (
     <section className="about" id="about">
-      <h2 className="numbered-heading-odd"><span>01.</span> About Me</h2>
-      <div className="about_container container grid">
-        <img src={Me} alt="" className="about_img" />
+      <h2 className="numbered-heading-odd">
+        <span>01.</span> About Me
+      </h2>
+
+      <div className="about_container container">
+        <div className="about_me">
+          <img src={Me} alt="" className="about_img" />
+        </div>
+
         <div className="about_content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam animi aut dolorum libero, aspernatur eos at vitae. Ipsa voluptatum quod unde ut minima recusandae iure facere est, veniam repellat cum?</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi cupiditate sequi quidem ullam. Mollitia corporis, eius hic similique molestiae rem sequi quidem blanditiis iste officia, incidunt accusamus expedita nemo fugit!</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+            voluptatibus a dignissimos blanditiis nam nostrum tenetur et
+            molestiae neque saepe asperiores debitis repellendus atque ullam
+            modi explicabo quos dolore eligendi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            omnis tenetur culpa nostrum tempore cupiditate, modi iusto
+            provident, aut debitis est. Nulla quibusdam praesentium, rerum
+            eveniet beatae officia quisquam esse!
+          </p>
+
+          <a href="#CV" className="btn">
+            Check my CV
+          </a>
         </div>
       </div>
     </section>
