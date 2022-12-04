@@ -1,7 +1,13 @@
 import React from "react";
 
 const Experience = () => {
-  return <section id="experience">Experience</section>;
+  return (
+    <section id="experience">
+      <h2 className="numbered-heading-even">
+        <span>02.</span>Experience
+      </h2>
+    </section>
+  );
 };
 
 export default Experience;

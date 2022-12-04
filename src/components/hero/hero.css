@@ -1,128 +1,26 @@
-header {
-  height: 100vh;
-  padding: 7rem;
-  overflow: hidden;
-}
-
-.header_container {
-  text-align: center;
-  height: 100%;
-  position: relative;
-}
-
-.me {
-  background: linear-gradient(var(--main-color), transparent);
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
-}
-
-.cta {
-  margin-top: 37rem;
-  display: flex;
-  gap: 1.2rem;
-  justify-content: center;
-
-}
-
-
-
-
-
-.social,
-.mail {
-  width: 40px;
-  position: fixed;
-  z-index: 10;
-}
-
-.social {
-  left: 40px;
-  bottom: 0;
-}
-
-.mail {
-  right: 40px;
-  top: 0;
-}
-
-.social ul {
+.hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  gap: 30px;
+  justify-items: center;
+  align-items: flex-start;
 }
 
-.social ul:after,
-.mail::before {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 90px;
-  margin: 0 auto;
-  background-color: var(--main-color);
-}
-
-.social li:last-of-type {
-  margin-bottom: 15px;
-}
-
-.mail a:last-of-type {
-  margin-top: 45px;
-}
-
-.social .icon {
-  font-size: 1.5rem;
-  transition: var(--transition);
-}
-
-.social .icon:hover {
-  transform: translateY(-5px);
-}
-
-.mail a:hover {
-  transform: translateY(5px);
-}
-
-.mail div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.mail a {
-  margin: 20px auto;
-  padding: 10px;
+.hero h5 {
+  color: var(--main-color);
   font-family: var(--mono-font);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hero h1 {
+  color: var(--text-color);
   font-weight: 600;
-  font-size: 13px;
-  line-height: 18px;
-  letter-spacing: 0.1em;
-  writing-mode: vertical-rl;
+  font-size: 5rem;
+  line-height: 1;
 }
 
-@media screen and (max-width: 1024px) {
-  .social {
-    left: 20;
-  }
-
-  .mail {
-    right: 20;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .social,
-  .mail {
-    display: none;
-  }
+.hero h3 {
+  color: var(--light-color);
+  font-size: 3rem;
+  line-height: 1;
 }

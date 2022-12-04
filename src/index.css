@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600&display=swap");
+
+@font-face { 
+  font-family: "SF Mono"; 
+  font-weight: 400; 
+  src: url("/src/assets/SFMono-Regular.ttf"); 
+}
 
 :root {
   --bg-color: rgb(36, 36, 36);
@@ -17,7 +22,7 @@
   --transition: all 250ms ease;
 
   --main-font: "Poppins", sans-serif;
-  --mono-font: "Source Code Pro", monospace;
+  --mono-font: "SF Mono", monospace;
 }
 
 * {
@@ -66,18 +71,8 @@ h1 {
 
 section {
   margin-top: 8rem;
+  padding: 0 25rem;
   height: 100vh;
-}
-
-section > h2,
-section > h5 {
-  text-align: center;
-  color: var(--light-color);
-}
-
-section > h2 {
-  color: var(--main-color);
-  margin-bottom: 3rem;
 }
 
 .text-light {
@@ -93,7 +88,8 @@ a:hover {
   color: var(--text-color);
 }
 
-.btn, .btn-primary {
+.btn,
+.btn-primary {
   width: max-content;
   display: inline-block;
   padding: 0.75rem 1.2rem;
@@ -121,6 +117,46 @@ a:hover {
   background: var(--text-color);
   color: var(--bg-color);
   border-color: transparent;
+}
+
+.numbered-heading-odd,
+.numbered-heading-even {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  margin: 10px 0 40px;
+  width: 100%;
+  font-size: clamp(26px, 5vw, 32px);
+  white-space: nowrap;
+}
+
+.numbered-heading-odd span,
+.numbered-heading-even span {
+  position: relative;
+  margin-right: 10px;
+  color: var(--main-color);
+  font-family: var(--mono-font);
+  font-size: clamp(16px, 3vw, 20px);
+  font-weight: 400;
+}
+
+.numbered-heading-odd:after,
+.numbered-heading-even:before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background-color: var(--light-color);
+}
+
+.numbered-heading-odd:after{
+  margin-left: 20px;
+}
+
+.numbered-heading-even:before {
+  margin-right: 20px;
 }
 
 img {
