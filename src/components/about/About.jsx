@@ -2,7 +2,7 @@ import React from "react";
 import Me from "../../assets/me-about.jpeg";
 import "./about.css";
 
-const About = () => {
+function About() {
   return (
     <section className="about" id="about">
       <h2 className="numbered-heading-odd">
@@ -27,14 +27,11 @@ const About = () => {
             provident, aut debitis est. Nulla quibusdam praesentium, rerum
             eveniet beatae officia quisquam esse!
           </p>
-
-          <a href="#CV" className="btn">
-            Check my CV
-          </a>
+          <a href="/Resume" className="btn">Check my Cv</a>
         </div>
       </div>
     </section>
   );
-};
+}
 
 export default About;

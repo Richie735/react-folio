@@ -1,17 +1,17 @@
 import React from "react";
 
-import { About, Experience, Header, Hero, Projects, Skills } from "./components/index";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "./pages/Main";
+import Resume from "./pages/Resume";
 
-const App = () => {
+function App () {
   return (
-    <>
-      <Header />
-      <Hero />
-      <About />
-      <Experience />
-      <Skills />
-      <Projects />
-    </>
+    <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/Resume" element={<Resume />} />
+      </Routes>
+      </BrowserRouter>
   );
 };
 
