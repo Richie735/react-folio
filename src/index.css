@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-@font-face { 
-  font-family: "SF Mono"; 
-  font-weight: 400; 
-  src: url("/src/assets/SFMono-Regular.ttf"); 
+@font-face {
+  font-family: "SF Mono";
+  font-weight: 400;
+  src: url("/src/assets/SFMono-Regular.ttf");
 }
 
 :root {
@@ -70,13 +70,8 @@ h1 {
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
   margin-top: 3rem;
-  padding: 0 25rem;
+  padding: 10rem 25rem;
   height: 100vh;
 }
 
@@ -156,7 +151,7 @@ a:hover {
   background-color: var(--light-color);
 }
 
-.numbered-heading-odd:after{
+.numbered-heading-odd:after {
   margin-left: 20px;
 }
 
@@ -188,6 +183,7 @@ img {
 
   section {
     padding: 0 2.5rem;
+    margin-bottom: 25rem;
   }
 
   section > h2 {
