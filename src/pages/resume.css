@@ -1,0 +1,59 @@
+.cv {
+    background: white !important;
+    color: black;
+}
+
+.cv h2{
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    border-top: 1px solid var(--bg-color);
+    border-bottom: 1px solid var(--bg-color);
+}
+
+.cv h3 {
+    color: var(--main-alt-color);
+    margin-bottom: 1rem;
+}
+
+.cv p {
+    line-height: 1.5;
+}
+
+.cv a {
+    color: inherit;
+}
+
+.cv div {
+    margin-top: 2rem;
+}
+
+.cv-profile {
+    text-align: center;
+}
+
+.cv-profile img {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+
+.cv-profile p {
+    color: var(--bg-alt-color);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.cv-contact ul {
+    margin-top: -2rem;
+}
+
+.cv-contact li {
+    text-align: right;
+    padding: 1rem;
+    border-top: 1px solid var(--bg-alt-color);
+    color: var(--bg-alt-color);
+}
+
+li + li {
+    margin-top: 0.7rem;
+}

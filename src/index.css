@@ -6,12 +6,18 @@
   src: url("/src/assets/SFMono-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Ailerons";
+  font-weight: 400;
+  src: url("/src/assets/Ailerons-Typeface.otf");
+}
+
 :root {
   --bg-color: rgb(36, 36, 36);
   --bg-alt-color: #585861;
   --main-color: #fdbc0a;
   --main-transp-color: rgba(253, 188, 10, 0.17);
-  --main-alt-color: rgba(77, 181, 255, 0.4);
+  --main-alt-color: rgb(211, 138, 12);
   --text-color: #fff;
   --light-color: #d7d7d7;
 
@@ -48,7 +54,7 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
+  /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* General Styles */
@@ -121,6 +127,8 @@ a:hover {
 
 .numbered-heading-odd,
 .numbered-heading-even {
+  font-family: "Ailerons";
+  letter-spacing: -0.4rem;
   display: flex;
   align-items: center;
   justify-items: center;
@@ -133,6 +141,7 @@ a:hover {
 
 .numbered-heading-odd span,
 .numbered-heading-even span {
+  letter-spacing: normal;
   position: relative;
   margin-right: 10px;
   color: var(--main-color);
