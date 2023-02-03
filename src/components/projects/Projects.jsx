@@ -4,7 +4,7 @@ import "./projects.css";
 
 const projects = [
   {
-    name: "Project 1",
+    name: "Project 4",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit, amet odit tenetur obcaecati distinctio veniam suscipit dignissimos culpa natus assumenda ratione, maiores nam voluptates itaque? Maiores voluptates delectus repellat!",
     tecs: [
@@ -13,19 +13,7 @@ const projects = [
       { tittle: "Css", id: 2 },
     ],
     links: "https://github.com/Richie735",
-    image: require("../../assets/portfolio1.jpg"),
-  },
-  {
-    name: "Project 2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit, amet odit tenetur obcaecati distinctio veniam suscipit dignissimos culpa natus assumenda ratione, maiores nam voluptates itaque? Maiores voluptates delectus repellat!",
-    tecs: [
-      { tittle: "React", id: 0 },
-      { tittle: "Html", id: 1 },
-      { tittle: "Css", id: 2 },
-    ],
-    links: "https://github.com/Richie735",
-    image: require("../../assets/portfolio2.jpg"),
+    image: require("../../assets/portfolio4.jpg"),
   },
   {
     name: "Project 3",
@@ -40,7 +28,7 @@ const projects = [
     image: require("../../assets/portfolio3.jpg"),
   },
   {
-    name: "Project 4",
+    name: "Project 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit, amet odit tenetur obcaecati distinctio veniam suscipit dignissimos culpa natus assumenda ratione, maiores nam voluptates itaque? Maiores voluptates delectus repellat!",
     tecs: [
@@ -49,7 +37,19 @@ const projects = [
       { tittle: "Css", id: 2 },
     ],
     links: "https://github.com/Richie735",
-    image: require("../../assets/portfolio4.jpg"),
+    image: require("../../assets/portfolio2.jpg"),
+  },
+  {
+    name: "Project 1",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit, amet odit tenetur obcaecati distinctio veniam suscipit dignissimos culpa natus assumenda ratione, maiores nam voluptates itaque? Maiores voluptates delectus repellat!",
+    tecs: [
+      { tittle: "React", id: 0 },
+      { tittle: "Html", id: 1 },
+      { tittle: "Css", id: 2 },
+    ],
+    links: "https://github.com/Richie735",
+    image: require("../../assets/portfolio1.jpg"),
   },
 ];
 

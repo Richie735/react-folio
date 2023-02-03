@@ -102,6 +102,7 @@
 .project-list li {
   display: inline;
   font-family: var(--mono-font);
+  color: var(--main-color);
   font-size: 12px;
   line-height: 1.75;
 }
