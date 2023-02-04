@@ -16,10 +16,7 @@ function About() {
 
         <div className="about_content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            voluptatibus a dignissimos blanditiis nam nostrum tenetur et
-            molestiae neque saepe asperiores debitis repellendus atque ullam
-            modi explicabo quos dolore eligendi.
+            My name is Ricardo Pereira, I am in the last year of the degree in Computer Engineering. Although I have yet to gain professional experience, I have a strong desire to learn and the ability to quickly adapt to new technologies and work effectively within a team environment.
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
